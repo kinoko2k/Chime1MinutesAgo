@@ -2,10 +2,11 @@
 Examine the chime 1 minute ago
 
 # Required packages
-|Name|Explanation|Installation method|
-|time|Observation of time|pip install time|
-|PyGame|Make a sound|pip install pygame|
-|MP3|Save the sound|pip install mp3|
+| Name   | Explanation         | Installation method |
+| ------ | ------------------- | ------------------- |
+| time   | Observation of time | pip install time    |
+| PyGame | Make a sound        | pip install pygame  |
+| MP3    | Save the sound      | pip install mp3     |
 
 # If you change the program
 ## When you want to change the sound
