@@ -3,12 +3,12 @@ import pygame
 import time
 
 filename = 'chime-1min.mp3'
-interval_time = 60
+interval_time = 0 # 再生間隔を秒数で指定する
 
-interval_time = int(input("アラーム間隔を秒数で設定せよ >>"))
+interval_time = int(input("アラーム間隔を秒数で設定してください。"))
 print("==================================================")
 print("開始しました")
-print("60秒後になるとchime-1min.mp3が鳴ります。")
+print("設定した秒数になるとchime-1min.mp3が鳴ります。")
 print("このプログラムを終了するには、ctrl+cを押してください。")
 print("==================================================")
 
