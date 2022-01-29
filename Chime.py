@@ -2,8 +2,8 @@ from mutagen.mp3 import MP3 as mp3
 import pygame
 import time
 
-filename = 'chime-1min.mp3'  # 再生したいmp3ファイル
-interval_time = 60  # 再生間隔を秒数で指定する
+filename = 'chime-1min.mp3'
+interval_time = 60
 
 interval_time = int(input("アラーム間隔を秒数で設定せよ >>"))
 print("==================================================")
@@ -13,7 +13,7 @@ print("このプログラムを終了するには、ctrl+cを押してくださ�
 print("==================================================")
 
 pygame.mixer.init()
-pygame.mixer.music.load(filename)  # 音源を読み込み
+pygame.mixer.music.load(filename)
 
 
 while True:
